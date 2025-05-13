@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sideBarBody{
+  padding-block: 30px;
+  padding-inline: 20px;
+  width: 200px;
+  color: rgb(33, 33, 33);
+  height: 550px;
+  overflow-y: scroll;
+ 
+}
+
+
+
+.categoryContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  
+  
+ 
+}
+
+
+
+.subCategoryContainer{
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.categoryTitle{
+   cursor: pointer;
+   font-weight: 800;
+}
+
+.categoryTitle.active{
+  color: rgb(255, 111, 0);
+}
+
+.subCategoryTitle{
+  cursor: pointer;
+  text-align: center;
+  width: 100%; 
+}
+
+.subCategoryTitle.active{
+  font-weight: 700;
+  color: rgb(255, 111, 0);
+}

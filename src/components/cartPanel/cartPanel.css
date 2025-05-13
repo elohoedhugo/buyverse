@@ -1,0 +1,55 @@
+
+
+.SCart-div{
+  margin-left: 30px;
+  height: 550px;
+  overflow-y: scroll;
+
+
+}
+.Cart-title{
+  color: rgb(255, 140, 0);
+  margin-bottom: 20px;
+}
+
+.emptyP{
+  text-align: center;
+  margin-top: 10em;
+}
+
+
+
+.allItemsDiv{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+
+.item-div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 15px;
+}
+
+
+
+.item-image{
+  height: 100px;
+  width:  100px;
+}
+
+.removeButton{
+  width: 70px;
+  height: 30px;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgb(255, 136, 0);
+  border: none;
+  color: rgb(250, 249, 247);
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 12px;
+}

@@ -1,0 +1,587 @@
+{
+
+   "clothing":{
+    "t-shirts": [
+      {
+        "id": 1,
+        "image": "https://images.pexels.com/photos/8148577/pexels-photo-8148577.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Sahara Sun Tee",
+         "price": "220",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 2,
+        "image": "https://images.pexels.com/photos/12922525/pexels-photo-12922525.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Olive Chill Tee",
+         "price": "120",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 3,
+        "image": "https://images.pexels.com/photos/12814813/pexels-photo-12814813.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Sunset Drop Tee",
+         "price": "820",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "skirts": [
+      {
+        "id": 4,
+        "image": "https://media.istockphoto.com/id/1162100585/photo/denim-skirt-isolated.jpg?b=1&s=612x612&w=0&k=20&c=01_McHeRTG7TaZY59zDnbeuIaqTO7HrF4jTmVWn0sCY=",
+        "name": "Classic Denim Skirt",
+         "price": "200",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 5,
+        "image": "https://media.istockphoto.com/id/882157056/photo/red-elegant-skirt-with-ribbon-bow-isolated-on-white.jpg?b=1&s=612x612&w=0&k=20&c=_h6YNn_UfYUIGww2lVG6zmAME58W0dDkZmVf-IjnN-I=",
+        "name": "Scarlet Ribbon Skirt ",
+         "price": "580",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 6,
+        "image": "https://images.pexels.com/photos/16431244/pexels-photo-16431244/free-photo-of-women-posing-under-water-drops.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Aqua Flow Skirt",
+         "price": "180",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "trousers":[
+      {
+        "id": 7,
+        "image": "https://images.pexels.com/photos/885590/pexels-photo-885590.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Relaxed Cream Pants",
+         "price": "600",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 8,
+        "image": "https://images.pexels.com/photos/31556458/pexels-photo-31556458/free-photo-of-stylish-woman-posing-in-blue-bohemian-outfit.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Boho Blue Trousers",
+         "price": "550",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 9,
+        "image": "https://images.pexels.com/photos/3756030/pexels-photo-3756030.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Autumn Plaid Pants",
+         "price": "100",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+     "jackets":[
+      {
+        "id": 10,
+        "image": "https://images.pexels.com/photos/16170/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Classic Leather Jacket",
+         "price": "600",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 11,
+        "image": "https://images.pexels.com/photos/977796/pexels-photo-977796.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Denim Rider Jacket",
+         "price": "550",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 12,
+        "image": "https://images.pexels.com/photos/9634245/pexels-photo-9634245.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Quilted Puffer Jacket",
+         "price": "100",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+     ],
+     "shorts":[
+      {
+        "id": 13,
+        "image": "https://images.pexels.com/photos/1760078/pexels-photo-1760078.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Beige Linen Shorts",
+         "price": "600",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 14,
+        "image": "https://images.pexels.com/photos/1963233/pexels-photo-1963233.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Denim Shorts",
+         "price": "550",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 15,
+        "image": "https://images.pexels.com/photos/2532090/pexels-photo-2532090.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Cotton Twill Shorts",
+         "price": "100",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+     ]
+   },
+
+   "electronics":{
+    "laptops": [
+      {
+        "id": 16,
+        "image": "https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Silver WorkMate MacBook",
+         "price": "920",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 17,
+        "image": "https://images.pexels.com/photos/19308356/pexels-photo-19308356/free-photo-of-laptop-on-sofa.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "White Macbook", 
+         "price": "120",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 18,
+        "image": "https://images.pexels.com/photos/7691770/pexels-photo-7691770.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Retro Laptop",
+         "price": "1220",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "phones": [
+      {
+        "id": 19,
+        "image": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Apple Midnight IPhone",
+         "price": "745",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 20,
+        "image": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Samsung View Phone",
+         "price": "430",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 21,
+        "image": "https://images.pexels.com/photos/9555099/pexels-photo-9555099.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Gionee",
+         "price": "960",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "wrist-watches":[
+      {
+        "id": 22,
+        "image": "https://media.istockphoto.com/id/697173746/photo/luxury-watch.jpg?b=1&s=612x612&w=0&k=20&c=rRaYLIlCkR3_8fhR6M58JXUHDYCLX2ROGDI3BiRHnmg=",
+        "name": "Royal Steel Chrono",
+         "price": "2108",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 23,
+        "image": "https://media.istockphoto.com/id/1180244659/photo/luxury-watch-isolated-on-white-background-with-clipping-path-for-artwork-or-design-black.jpg?b=1&s=612x612&w=0&k=20&c=qpk35u3151b3C0VYnKOL-x0wMdypGS78Ea01kanxaAc=",
+        "name": "Midnight Precision Watch",
+         "price": "98",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 24,
+        "image": "https://media.istockphoto.com/id/1204442466/photo/young-woman-checking-the-time-on-watch.jpg?b=1&s=612x612&w=0&k=20&c=LxKoWWVeOUooJZV2zImLruhIfeGFzCbSySku6m9OZaI=",
+        "name": "Everyday Gold Watch",
+         "price": "1000",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+    "headsets":[
+      {
+        "id": 25,
+        "image": "https://images.pexels.com/photos/2291471/pexels-photo-2291471.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Wireless Studio Headphones",
+         "price": "2108",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 26,
+        "image": "https://images.pexels.com/photos/8866731/pexels-photo-8866731.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Noise Cancelling Headset",
+         "price": "98",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 27,
+        "image": "https://images.pexels.com/photos/8866751/pexels-photo-8866751.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Gaming Headset with Mic",
+         "price": "1000",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+    "cameras":[
+      {
+        "id": 28,
+        "image": "https://images.pexels.com/photos/3497065/pexels-photo-3497065.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Professional DSLR Camera",
+         "price": "2108",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 29,
+        "image": "https://images.pexels.com/photos/1787235/pexels-photo-1787235.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Mirrorless Digital Camera",
+         "price": "98",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 30,
+        "image": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Vintage Film Camera",
+         "price": "1000",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ]
+   },
+
+   "books":{
+    "fiction": [
+      {
+        "id": 31,
+        "image": "https://images.pexels.com/photos/1314584/pexels-photo-1314584.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Harry Potter Series",
+         "price": "60",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 32,
+        "image": "https://images.pexels.com/photos/7768663/pexels-photo-7768663.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Iron Man Series",
+         "price": "410",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 33,
+        "image": "https://images.pexels.com/photos/8050564/pexels-photo-8050564.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "The Secret Garden",
+         "price": "200",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "non-fiction": [
+      {
+        "id": 34,
+        "image": "https://images.pexels.com/photos/31829664/pexels-photo-31829664/free-photo-of-hand-holding-book-profit-maker-in-outdoor-setting.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Profit Maker",
+         "price": "390",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 35,
+        "image": "https://images.pexels.com/photos/4245015/pexels-photo-4245015.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Nutuk",
+         "price": "250",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 36,
+        "image": "https://images.pexels.com/photos/3747163/pexels-photo-3747163.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "One Simple Thing",
+         "price": "110",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "fantasy":[
+      {
+        "id": 37,
+        "image": "https://images.pexels.com/photos/6806399/pexels-photo-6806399.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "The Arithian Line",
+         "price": "654",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 38,
+        "image": "https://images.pexels.com/photos/2228584/pexels-photo-2228584.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Your Heart Is The Sea",
+         "price": "780",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 39,
+        "image": "https://images.pexels.com/photos/15556876/pexels-photo-15556876/free-photo-of-books-and-a-lit-candle.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Lord of the Rings Series",
+         "price": "760",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+    "thriller":[
+      {
+        "id": 40,
+        "image": "https://images.pexels.com/photos/17192493/pexels-photo-17192493/free-photo-of-opened-books-on-white-bedding.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "The Davinci Code",
+         "price": "654",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 41,
+        "image": "https://images.pexels.com/photos/7987100/pexels-photo-7987100.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "The Vanishing Act",
+         "price": "780",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 42,
+        "image": "https://images.pexels.com/photos/17601658/pexels-photo-17601658/free-photo-of-woman-sitting-on-bed-with-book.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Serpent and Dove",
+         "price": "760",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+    "mystery":[
+      {
+        "id": 43,
+        "image": "https://images.pexels.com/photos/1643033/pexels-photo-1643033.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Where are You",
+         "price": "654",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 44,
+        "image": "https://images.pexels.com/photos/6178714/pexels-photo-6178714.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "The Green Witch",
+         "price": "780",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 45,
+        "image": "https://images.pexels.com/photos/20837035/pexels-photo-20837035/free-photo-of-woman-reading-the-gothic-tales-of-h-p-lovecraft-book.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Gothic mysteries",
+         "price": "760",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ]
+   },
+
+   "skincare":{
+    "lotions": [
+      {
+        "id": 46,
+        "image": "https://images.pexels.com/photos/20031246/pexels-photo-20031246/free-photo-of-bottle-of-milk-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "CBD Soothing Lotion",
+         "price": "220",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 47,
+        "image": "https://images.pexels.com/photos/17345334/pexels-photo-17345334/free-photo-of-bottle-of-clean-gel.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Hydrating Glow Gel",
+         "price": "120",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 48,
+        "image": "https://images.pexels.com/photos/17063198/pexels-photo-17063198/free-photo-of-luxury-beauty-product-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Rejuvenating Night Lotion",
+         "price": "820",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "bodywashes": [
+      {
+        "id": 49,
+        "image": "https://images.pexels.com/photos/7262692/pexels-photo-7262692.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Tamarind Invigorating gel",
+         "price": "200",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 50,
+        "image": "https://images.pexels.com/photos/15785558/pexels-photo-15785558/free-photo-of-soap-in-a-bottle-in-water.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Botanical Body Cleanser",
+         "price": "580",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 51,
+        "image": "https://images.pexels.com/photos/16667095/pexels-photo-16667095/free-photo-of-bottle-of-soap-on-plate.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Purifying Body Wash",
+         "price": "180",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "scrubs":[
+      {
+        "id": 52,
+        "image": "https://images.pexels.com/photos/11635442/pexels-photo-11635442.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Salts and Soaks",
+         "price": "600",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 53,
+        "image": "https://images.pexels.com/photos/3738363/pexels-photo-3738363.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "La Bruket Sugar Scrub",
+         "price": "550",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 54,
+        "image": "https://images.pexels.com/photos/17511744/pexels-photo-17511744/free-photo-of-honey-lemon-sugar-and-cream.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Honey and Lemon Exfoliant",
+         "price": "100",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "toners":[
+      {
+        "id": 55,
+        "image": "https://images.pexels.com/photos/6847823/pexels-photo-6847823.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Balancing Facial Toner",
+         "price": "600",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 56,
+        "image": "https://images.pexels.com/photos/17783855/pexels-photo-17783855/free-photo-of-a-skincare-product-in-a-plastic-bottle-floating-on-a-water-surface.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Hydrating Mist Toner",
+         "price": "550",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 57,
+        "image": "https://images.pexels.com/photos/11599021/pexels-photo-11599021.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Soothing Herbal Toner",
+         "price": "100",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ],
+
+    "sunscreens":[
+      {
+        "id": 58,
+        "image": "https://images.pexels.com/photos/18186034/pexels-photo-18186034/free-photo-of-tubes-of-sunscreen-cream.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Broad Spectrum Sunscreen",
+         "price": "600",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 59,
+        "image": "https://images.pexels.com/photos/19063234/pexels-photo-19063234/free-photo-of-tube-of-cream.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Daily UV Protection Cream",
+         "price": "550",
+         "delivery-info": "takes 2 - 5 working days"
+
+      },
+
+      {
+        "id": 60,
+        "image": "https://images.pexels.com/photos/16667091/pexels-photo-16667091/free-photo-of-sun-cream-in-a-pink-studio.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Tinted Sunscreen Lotion",
+         "price": "100",
+         "delivery-info": "takes 2 - 5 working days"
+
+      }
+    ]
+   }
+
+
+
+}

@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo{
+  height: 100px;
+  width: 280px;
+  margin-right: 50px;
+}
+form{
+  display: flex;
+  gap: 2%;
+}
+.input{
+  padding-inline: 19px;
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 500px;
+  border: 1px solid rgb(255, 150, 0);
+  border-radius: 5%;
+  background-color: rgb(241, 239, 236);
+}
+
+.input.active{
+  border: 2px solid rgb(255, 150, 0);
+}
+
+.search-button{
+  width: 20%;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: rgb(255, 150, 0);
+  border: none;
+  border-radius: 13%;
+  color: rgb(250, 249, 247);
+  cursor: pointer;
+}
+
+.arrowdiv{
+  display: flex;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding-inline: 10px;
+  padding-block: 10px;
+  
+}
+
+.arrowdiv:hover{
+  color:  rgb(255, 120, 0);
+}
+
+.arrowdiv.active{
+  color: black;
+  background-color: rgb(181, 179, 179);
+  border-radius: 5px;
+}
+
+
+
+
+.cart-icon{
+  width: 30px;
+  height: 25px;
+}
+
+.cartdiv{
+  display: flex;
+  font-size: 17px;
+  align-items: center;
+  cursor: pointer;
+  padding-inline: 10px;
+  padding-block: 10px;
+  
+}
+
+.cartdiv:hover{
+  color:  rgb(255, 120, 0);
+}
+
+.cartdiv.active{
+  color: black;
+  background-color: rgb(181, 179, 179);
+  border-radius: 5px;
+}
