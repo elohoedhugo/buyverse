@@ -9,6 +9,7 @@ import AccountDropdown from "../accountDropdown/AccountDropdown";
 import SearchDropdown from "../searchDropdown/SearchDropdown";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchTerm } from "../../store/SearchTermSlice";
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
 
   const [activeTab, setActiveTab] = useState(null)
@@ -28,6 +29,8 @@ const Navbar = () => {
 
   const dispatch = useDispatch()
 
+  const navigate = useNavigate()
+
   const handleSearch = (e) => {
     dispatch(setSearchTerm(e.target.value))
   }
@@ -45,6 +48,16 @@ const Navbar = () => {
         <SearchDropdown className="searchDropdown"/>
         <button className="search-button">Search</button>
       </form>
+
+      <div onClick ={()=>{
+        toggleTab("home")
+        navigate("/")
+        }} className={ `arrowdiv ${activeTab === "home" ? "active" : "" }`}>
+        <p>Home</p>
+        <div className="icondiv">
+        {activeTab === "home" ? (<IoIosArrowUp className="react-icon"/>) : (<IoIosArrowDown className="react-icon"/>)}
+        </div>
+      </div>
 
       <div onClick ={()=>toggleTab("returns")} className={ `arrowdiv ${activeTab === "returns" ? "active" : "" }`}>
         <p>Returns</p>

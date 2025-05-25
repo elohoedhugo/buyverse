@@ -53,8 +53,7 @@ if (filteredProducts.length === 0){
     <div className='searchDropdown'>
      { filteredProducts.map((product, index) => (
       <div key={index} onClick={()=>handleClick(product.category,product.subCategory)}>
-       <p className='productname'>{product.name} / {product.category} / {product.subCategory}</p>
-       <p></p>
+       <p className='productname'>...{product.name} / {product.category} / {product.subCategory}</p>
       </div>
       ))}
     </div>

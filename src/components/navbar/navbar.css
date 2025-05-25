@@ -9,6 +9,7 @@
   align-items: center;
   gap: 15px;
   color: #8C4C1F;
+  width: fit-content;
 }
 
 .logo{
@@ -21,7 +22,7 @@ form{
   gap: 10px
 }
 .input{
-  margin-right: 30px;
+  margin-right: 10px;
   padding-inline: 19px;
   color: rgb(0, 0, 0);
   height: 50px;
@@ -61,7 +62,7 @@ form{
 }
 
 .search-button{
-  margin-right: 100px;
+  margin-right: 20px;
   width: 120px;
   font-size: 17px;
   font-weight: 700;
@@ -108,7 +109,7 @@ form{
 .cartBadge{
   position: absolute;
   top: 38px;
-  right: 205px;
+  right: 175px;
   color: rgb(255, 140, 0);
   font-weight: 700;
 }
