@@ -8,36 +8,64 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  color: #8C4C1F;
 }
 
 .logo{
-  height: 100px;
-  width: 280px;
+  height: 70px;
+  width: 210px;
   margin-right: 50px;
 }
 form{
   display: flex;
-  gap: 2%;
+  gap: 10px
 }
 .input{
+  margin-right: 30px;
   padding-inline: 19px;
   color: rgb(0, 0, 0);
   height: 50px;
   width: 500px;
-  border: 1px solid rgb(255, 150, 0);
+  border: 1px solid #895129;
   border-radius: 5%;
   background-color: rgb(241, 239, 236);
+  position: relative;
 }
 
 .input.active{
-  border: 2px solid rgb(255, 150, 0);
+  border: 4px solid rgb(255, 150, 0);
+  outline: none;
+}
+.nomatches{
+  position: absolute;
+  top: 105px;
+}
+
+.searchDropdown{
+  position: absolute;
+  overflow-y: scroll;
+  height: 100px;
+  width: 520px;
+  background-color: #DBB06B;
+  padding-block: 20px;
+  padding-inline: 30px;
+  top: 95px;
+}
+
+.productname{
+  cursor: pointer;
+}
+
+.productname:hover{
+  color: rgb(251, 248, 245);
 }
 
 .search-button{
-  width: 20%;
+  margin-right: 100px;
+  width: 120px;
   font-size: 17px;
   font-weight: 700;
-  background-color: rgb(255, 150, 0);
+  background-color: #895129;
   border: none;
   border-radius: 13%;
   color: rgb(250, 249, 247);
@@ -71,6 +99,18 @@ form{
 .cart-icon{
   width: 30px;
   height: 25px;
+}
+
+#cart-icon{
+  position: relative;
+}
+
+.cartBadge{
+  position: absolute;
+  top: 38px;
+  right: 205px;
+  color: rgb(255, 140, 0);
+  font-weight: 700;
 }
 
 .cartdiv{

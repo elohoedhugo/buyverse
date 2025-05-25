@@ -35,6 +35,8 @@ const CartPanel = () => {
             </div>
           ))
         }
+
+        <p className='totalPrice'>Total Price : ${totalPrice}.00 </p>
       </div>
      )
     }

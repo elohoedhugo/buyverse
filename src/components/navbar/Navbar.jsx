@@ -5,9 +5,10 @@ import buyverseImg from "../../assets/logo-no-background.png";
 import { IoIosArrowDown } from "react-icons/io";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoIosArrowUp } from "react-icons/io";
-
 import AccountDropdown from "../accountDropdown/AccountDropdown";
-
+import SearchDropdown from "../searchDropdown/SearchDropdown";
+import { useDispatch, useSelector } from "react-redux";
+import { setSearchTerm } from "../../store/SearchTermSlice";
 const Navbar = () => {
 
   const [activeTab, setActiveTab] = useState(null)
@@ -23,16 +24,25 @@ const Navbar = () => {
   
   const [inputActive, setInputActive] = useState(false)
 
-  const handleInput = () => {
-    setInputActive(true)
+  const {searchTerm} = useSelector(state => state.search)
+
+  const dispatch = useDispatch()
+
+  const handleSearch = (e) => {
+    dispatch(setSearchTerm(e.target.value))
   }
+
+  const {cart} = useSelector(state => state.myCart)
+
+  const totalItems = cart.reduce((total, item) => total + item.quantity, 0)
 
  
   return (
     <div className="navbar">
       <img className="logo" src={buyverseImg} alt="buyverse logo" />
       <form action="">
-        <input className= {`input ${inputActive ? "active": ""}`} placeholder="Search for products here...." onFocus={handleInput} onClick={handleInput}></input>
+        <input className= {`input ${inputActive ? "active": ""}`} placeholder="Search for products here...."  onFocus={()=>setInputActive(true)} onBlur={()=>setInputActive(false)} value={searchTerm} onChange={handleSearch}></input>
+        <SearchDropdown className="searchDropdown"/>
         <button className="search-button">Search</button>
       </form>
 
@@ -54,7 +64,8 @@ const Navbar = () => {
 
       <div onClick={()=>toggleTab("cart")} className={`cartdiv ${activeTab==="cart" ? "active" : ""}`} >
         <div className="icondiv">
-          <MdOutlineShoppingCart className="cart-icon" />
+          <MdOutlineShoppingCart className="cart-icon" id="cart-icon" />
+          {totalItems > 0 && <span className="cartBadge">{totalItems}</span>}
         </div>
         <p>Cart</p>
         <div className="icondiv">

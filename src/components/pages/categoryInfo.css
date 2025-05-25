@@ -3,8 +3,8 @@
 }
 
 .category-info{
-  padding-top: 20px;
-  margin-left: 30px;
+  padding-top: 100px;
+  margin-left: 100px;
 }
 
 h3{
@@ -50,7 +50,7 @@ h3{
   border-radius: 10px;
   text-align: center;
   margin: 0 auto;
-  background-color: rgb(255, 136, 0);
+  background-color: #8C4C1F;
   border: none;
   color: rgb(250, 249, 247);
   font-weight: 700;

@@ -6,14 +6,14 @@ const CategoryCard = ({categories, categoryPreviewImages, onClick}) => {
  
   return (
     <div>
-      <ul className="category-list">
+      <div className="category-list">
         {categories.map((category) => {
           const preview = categoryPreviewImages.find((item) => {
             return item.category === category.title.toLowerCase();
           });
 
           return (
-            <li key={category.title} onClick={()=>onClick(category)}>
+            <div key={category.title} onClick={()=>onClick(category)}>
               <div className="category-div">
                 <div className="title-div">
                   <p className="category-title"> {category.title}:</p>
@@ -28,10 +28,10 @@ const CategoryCard = ({categories, categoryPreviewImages, onClick}) => {
                   )}
                 </div>
               </div>
-            </li>
+            </div>
           );
         })}
-      </ul>
+      </div>
     </div>
   )
 }

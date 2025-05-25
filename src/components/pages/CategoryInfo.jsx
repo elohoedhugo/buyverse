@@ -35,7 +35,7 @@ const CategoryInfo = () => {
   }, [categoryData, categoryName, subCategoryName]);
 
   if (!categoryData) {
-    return <div>Sub-Category not found</div>;
+    return <div>Category not found</div>;
   }
 
   const sendAction = useDispatch()
