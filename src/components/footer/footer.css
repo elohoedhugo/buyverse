@@ -1,3 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 footer{
-  border: 2px solid red;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+section{
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title{
+  text-align: center;
+  font-size: 30px;
+  color: #FB6A2C;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-content{
+  width: fit-content;
+}
+
+.footer-content p{
+  margin-bottom: 10px;
+  color: #895129;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.footer-content p:hover{
+  color: #FB6A2C;
 }
