@@ -4,6 +4,7 @@
   margin-left: 50px;
   margin-top: 50px;
   height: 550px;
+  width: fit-content;
   overflow-y: scroll;
 
 
@@ -40,7 +41,8 @@
 
 .item-image{
   height: 100px;
-  width:  100px;
+  width:  100px; 
+  box-shadow: 10px 10px 15px rgb(164, 102, 36);
 }
 
 .removeButton{

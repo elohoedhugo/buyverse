@@ -16,6 +16,9 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid #895129;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgb(164, 102, 36);
 }
 
 .footer-title{

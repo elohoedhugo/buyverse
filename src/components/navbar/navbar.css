@@ -19,7 +19,9 @@
 }
 form{
   display: flex;
-  gap: 10px
+  gap: 10px;
+  border: 2px solid red;
+  position: relative;
 }
 .input{
   margin-right: 10px;
@@ -30,7 +32,6 @@ form{
   border: 1px solid #895129;
   border-radius: 5%;
   background-color: rgb(241, 239, 236);
-  position: relative;
 }
 
 .input.active{
@@ -39,7 +40,7 @@ form{
 }
 .nomatches{
   position: absolute;
-  top: 105px;
+  top: 55px;
 }
 
 .searchDropdown{
@@ -108,8 +109,8 @@ form{
 
 .cartBadge{
   position: absolute;
-  top: 38px;
-  right: 175px;
+  top:-14px;
+  right: 1px;
   color: rgb(255, 140, 0);
   font-weight: 700;
 }

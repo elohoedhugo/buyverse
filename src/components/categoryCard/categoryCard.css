@@ -2,7 +2,7 @@
 
 .category-list{
   display: flex;
-  padding-block: 100px;
+  padding-block: 50px;
   align-items: center;
   justify-content: center;
   gap: 105px;
