@@ -13,7 +13,7 @@
 
       {
         "id": 2,
-        "image": "https://images.pexels.com/photos/4456815/pexels-photo-4456815.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "image": "https://images.pexels.com/photos/4456815/pexels-photo-4456815.jpeg",
         "name": "Olive Chill Tee",
          "price": "120",
          "delivery-info": "takes 2 - 5 working days",
@@ -160,7 +160,7 @@
 
       {
         "id": 17,
-        "image": "https://images.pexels.com/photos/920381/pexels-photo-920381.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "image": "https://images.pexels.com/photos/5198239/pexels-photo-5198239.jpeg",
         "name": "White Macbook", 
          "price": "120",
          "delivery-info": "takes 2 - 5 working days",
@@ -307,7 +307,7 @@
 
       {
         "id": 32,
-        "image": "https://images.pexels.com/photos/5331074/pexels-photo-5331074.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "image": "https://images.pexels.com/photos/5331074/pexels-photo-5331074.jpeg",
         "name": "Iron Man Series",
          "price": "410",
          "delivery-info": "takes 2 - 5 working days",
@@ -455,7 +455,7 @@
 
       {
         "id": 47,
-        "image": "https://images.pexels.com/photos/5938539/pexels-photo-5938539.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "image": "https://images.pexels.com/photos/7466779/pexels-photo-7466779.jpeg",
         "name": "Hydrating Glow Gel",
          "price": "120",
          "delivery-info": "takes 2 - 5 working days",

@@ -56,7 +56,7 @@ const Carousel = () => {
       </div>
       <div className='cdiv' id='sdiv'>
         <div className='carouselPDiv'>
-          <p className='carouselP'> Work. Stream. Play. Repeat—with lasting battery</p>
+          <p className='carouselP'> Where creativity meets clarity—explore your world in focus.</p>
         <p className='carouselP'>Experience the performance you’ve been waiting for. Shop now!</p>
         </div>
       </div>
