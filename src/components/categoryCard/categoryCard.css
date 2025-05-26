@@ -1,8 +1,16 @@
+.category-container{
+  padding-top: 40px;
+  font-size: 26px;
+}
 
+.popularP{
+  padding-left: 20px;
+  color: #8C4C1F;
+}
 
 .category-list{
   display: flex;
-  padding-block: 50px;
+  padding-bottom: 50px;
   align-items: center;
   justify-content: center;
   gap: 105px;

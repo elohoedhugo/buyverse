@@ -13,10 +13,12 @@
 
       {
         "id": 2,
-        "image": "https://images.pexels.com/photos/12922525/pexels-photo-12922525.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "image": "https://images.pexels.com/photos/4456815/pexels-photo-4456815.jpeg?auto=compress&cs=tinysrgb&w=600",
         "name": "Olive Chill Tee",
          "price": "120",
-         "delivery-info": "takes 2 - 5 working days"
+         "delivery-info": "takes 2 - 5 working days",
+         "description": "Wear your vibe. Own your look.",
+         "description2": "Limited stock. Unlimited style. Grab yours now!"
 
       },
 
@@ -158,10 +160,12 @@
 
       {
         "id": 17,
-        "image": "https://images.pexels.com/photos/19308356/pexels-photo-19308356/free-photo-of-laptop-on-sofa.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "image": "https://images.pexels.com/photos/920381/pexels-photo-920381.jpeg?auto=compress&cs=tinysrgb&w=600",
         "name": "White Macbook", 
          "price": "120",
-         "delivery-info": "takes 2 - 5 working days"
+         "delivery-info": "takes 2 - 5 working days",
+         "description": "Work. Stream. Play. Repeat—with lasting battery.",
+         "description2": "Experience the performance you’ve been waiting for. Shop now"
 
       },
 
@@ -303,10 +307,13 @@
 
       {
         "id": 32,
-        "image": "https://images.pexels.com/photos/7768663/pexels-photo-7768663.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "image": "https://images.pexels.com/photos/5331074/pexels-photo-5331074.jpeg?auto=compress&cs=tinysrgb&w=600",
         "name": "Iron Man Series",
          "price": "410",
-         "delivery-info": "takes 2 - 5 working days"
+         "delivery-info": "takes 2 - 5 working days",
+         "description": "Because real love stories never end",
+         "description2": "Limited stock. Unlimited imagination."
+
 
       },
 
@@ -448,10 +455,12 @@
 
       {
         "id": 47,
-        "image": "https://images.pexels.com/photos/17345334/pexels-photo-17345334/free-photo-of-bottle-of-clean-gel.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "image": "https://images.pexels.com/photos/5938539/pexels-photo-5938539.jpeg?auto=compress&cs=tinysrgb&w=600",
         "name": "Hydrating Glow Gel",
          "price": "120",
-         "delivery-info": "takes 2 - 5 working days"
+         "delivery-info": "takes 2 - 5 working days",
+         "description": "Because sensitive skin deserves special care",
+         "description2": "Glow up before we sell out!"
 
       },
 

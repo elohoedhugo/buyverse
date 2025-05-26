@@ -50,7 +50,8 @@ form{
   background-color: #DBB06B;
   padding-block: 20px;
   padding-inline: 30px;
-  top: 95px;
+  top: 55px;
+  z-index: 1;
 }
 
 .productname{
