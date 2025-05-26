@@ -75,7 +75,10 @@ const Navbar = () => {
 
       <AccountDropdown activeTab={activeTab} toggleTab={toggleTab}/>
 
-      <div onClick={()=>toggleTab("cart")} className={`cartdiv ${activeTab==="cart" ? "active" : ""}`} >
+      <div onClick={()=>{
+        toggleTab("cart")
+        navigate("/category")
+        }} className={`cartdiv ${activeTab==="cart" ? "active" : ""}`} >
         <div className="icondiv" id="cart-icon">
           <MdOutlineShoppingCart className="cart-icon"/>
           {totalItems > 0 && <span className="cartBadge">{totalItems}</span>}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import products from "../productsData/products.json";
-import { useParams } from "react-router-dom";
+import { replace, useNavigate, useParams } from "react-router-dom";
 import SideBar from "../sideBar/SideBar";
 import CartPanel from "../cartPanel/CartPanel";
 import "../pages/categoryInfo.css";
@@ -9,36 +9,63 @@ import { addItem } from "../../store/CartSlice";
 
 const CategoryInfo = () => {
   const { categoryName, subCategoryName } = useParams();
-
-  const categoryData = products[categoryName];
+  const navigate = useNavigate()
+  const sendAction = useDispatch()
   
   const [selectedCategory, setSelectedCategory] = useState(null)
-
   const [selectedSubCategory, setSelectedSubCategory] = useState(null);
+  const [currentProducts, setCurrentProducts] = useState([])
+
+  
+
+  const categories = Object.keys(products)
 
   useEffect(() => {
-    if (categoryData) {
 
-      if(subCategoryName && categoryData[subCategoryName]){
-        setSelectedSubCategory(subCategoryName)
-      }
-      
-      else
-      {
-        const firstSubCategory = Object.keys(categoryData)[0];
-      
-        setSelectedSubCategory(firstSubCategory);
-      }
-      
-    setSelectedCategory(categoryName)
+    if(categories.length === 0){
+      return;
     }
-  }, [categoryData, categoryName, subCategoryName]);
 
-  if (!categoryData) {
+    if(!categoryName){
+      const firstCategory = categories[0]
+      const firstSubCategory = Object.keys(products[firstCategory])[0]
+      navigate(`/category/${firstCategory}/${firstSubCategory}`, {replace: true})
+      return;
+    }
+
+    if(products[categoryName]){
+      const categoryData = products[categoryName]
+      const subCategories = Object.keys(categoryData)
+
+      if(!subCategoryName || !categoryData[subCategoryName]){
+        
+          const firstSubCategory = subCategories[0]
+           navigate(`/category/${categoryName}/${firstSubCategory}`, {replace: true})
+           return;
+        
+      }
+
+      setSelectedCategory(categoryName)
+      setSelectedSubCategory(subCategoryName)
+      setCurrentProducts(categoryData[subCategoryName] || [])
+    
+
+    }
+  }, [categoryName, subCategoryName, categories, navigate]);
+
+  if(categories.length === 0){
+    return<div>No product available</div>
+  }
+
+  if (categoryName && !products[categoryName]) {
     return <div>Category not found</div>;
   }
 
-  const sendAction = useDispatch()
+if(!selectedCategory || !selectedSubCategory){
+  return <div>Loading....</div>
+}
+
+  
 
   return (
     <div className="body">
@@ -47,14 +74,12 @@ const CategoryInfo = () => {
       selectedSubCategory={selectedSubCategory}
       setSelectedSubCategory={setSelectedSubCategory}/>
       
-        {Object.entries(categoryData).map(([subCategory, productList]) => (
-          <div key={subCategory}>
-            {selectedSubCategory === subCategory && (
+        
               <div className="category-info">
-                <h3>{subCategory.toUpperCase()}: {productList.length}</h3>
+                <h3>{selectedSubCategory.toUpperCase()}: {currentProducts.length}</h3>
 
                 <ul className="products-list">
-                  {productList.map((product) => (
+                  {currentProducts.map((product) => (
                     <li key={product.name}>
                       <div className="product-card">
                         <img className="product-image" src={product.image} alt="" />
@@ -66,9 +91,7 @@ const CategoryInfo = () => {
                   ))}
                 </ul>
               </div>
-            )}
-          </div>
-        ))}
+            
       
       <CartPanel className="cartPanel" />
     </div>

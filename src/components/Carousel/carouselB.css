@@ -8,8 +8,8 @@
 
 .carousel-slides {
   display: flex;
-  transition: transform 0.5s ease-in-out;
-  height: 400px; /* Adjust height */
+  transition: transform 1.0s ease-in-out;
+  height: 450px; /* Adjust height */
 }
 
 .carousel-item {
