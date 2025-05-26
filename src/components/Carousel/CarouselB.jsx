@@ -71,7 +71,7 @@ const CarouselB = () => {
          <section key={item.product.id}className="carousel-item" style={{backgroundImage: `url(${item.product.image})`}} >
          <p className='carouselP'>{item.product.description}</p>
          <p className='carouselP'>{item.product.description2}</p>
-         
+         <button className='shop'> Shop now</button>
       </section>
       ))} 
       </div>

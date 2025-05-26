@@ -22,6 +22,18 @@
   border: none;
 }
 
+.shop{
+  margin-top: 50px;
+  padding-inline: 30px;
+  padding-block: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #b44b1d;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 
 .carousel-arrow {
   position: absolute;
