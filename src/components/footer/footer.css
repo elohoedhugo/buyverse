@@ -43,3 +43,68 @@ section{
 .footer-content p:hover{
   color: #FB6A2C;
 }
+
+@media(max-width: 1536px){
+footer{
+  width: 1336px;
+  gap: 35px;
+  
+}
+
+section{
+  width: 305px;
+  height: 260px;
+
+}
+}
+
+@media(max-width: 1336px){
+ footer{
+  width: 1136px;
+  gap: 70px;
+  
+}
+
+section{
+  width: 250px;
+}
+}
+
+@media(max-width: 1136px){
+ footer{
+  width: 936px;
+  gap: 90px;
+  flex-wrap: wrap;
+  
+}
+
+section{
+  width: 300px;
+}
+}
+
+@media(max-width: 936px){
+ footer{
+  width: 736px;
+  gap: 90px;
+  flex-wrap: wrap;
+  
+}
+
+section{
+  width: 300px;
+}
+}
+
+@media(max-width: 736px){
+ footer{
+  width: 536px;
+  gap: 30px;
+  flex-wrap: wrap;
+  
+}
+
+section{
+  width: 250px;
+}
+}

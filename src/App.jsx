@@ -14,6 +14,7 @@ function App() {
         <Route path='/category' element={<CategoryInfo/>}/>
         <Route path='/category/:categoryName' element={<CategoryInfo/>}/>
         <Route path="/category/:categoryName/:subCategoryName?" element={<CategoryInfo/>}/>
+        <Route path="/cartpanel" element={<CartPanel/>}/>
       </Route>
     )
   )

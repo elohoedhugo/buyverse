@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import products from "../productsData/products.json";
-import { replace, useNavigate, useParams } from "react-router-dom";
+import {  useNavigate, useParams } from "react-router-dom";
 import SideBar from "../sideBar/SideBar";
 import CartPanel from "../cartPanel/CartPanel";
 import "../pages/categoryInfo.css";
@@ -65,8 +65,6 @@ if(!selectedCategory || !selectedSubCategory){
   return <div>Loading....</div>
 }
 
-  
-
   return (
     <div className="body">
       <SideBar selectedCategory={selectedCategory} 
@@ -94,6 +92,7 @@ if(!selectedCategory || !selectedSubCategory){
             
       
       <CartPanel className="cartPanel" />
+      <p className="go" onClick={()=> navigate("/cartpanel")}> Go to Cart!!!</p>
     </div>
   );
 };

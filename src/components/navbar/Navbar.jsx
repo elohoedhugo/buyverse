@@ -10,6 +10,7 @@ import SearchDropdown from "../searchDropdown/SearchDropdown";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchTerm } from "../../store/SearchTermSlice";
 import { useNavigate } from "react-router-dom";
+import { IoHome } from "react-icons/io5";
 const Navbar = () => {
 
   const [activeTab, setActiveTab] = useState(null)
@@ -19,7 +20,6 @@ const Navbar = () => {
     setActiveTab((prev)=>(
         prev === tabIndex? null : tabIndex
     ))
-
 
   }
   
@@ -39,10 +39,12 @@ const Navbar = () => {
 
   const totalItems = cart.reduce((total, item) => total + item.quantity, 0)
 
+
+
  
   return (
     <div className="navbar">
-      <img className="logo" src={buyverseImg} alt="buyverse logo" />
+      <img className="logo" src={buyverseImg} alt="buyverse logo" onClick={()=>navigate("/")}/>
       <form action="">
         <input className= {`input ${inputActive ? "active": ""}`} placeholder="Search for products here...."  onFocus={()=>setInputActive(true)} onBlur={()=>setInputActive(false)} value={searchTerm} onChange={handleSearch}></input>
         <SearchDropdown className="searchDropdown"/>
@@ -84,9 +86,14 @@ const Navbar = () => {
           {totalItems > 0 && <span className="cartBadge">{totalItems}</span>}
         </div>
         <p>Cart</p>
-        <div className="icondiv">
+        <div className="icondiv" id="arrow-icon">
         {activeTab === "cart" ? (<IoIosArrowUp className="react-icon"/>) : (<IoIosArrowDown className="react-icon"/>)}
         </div>
+      </div>
+
+      <div className="homediv" onClick={()=> navigate("/")}>
+          <IoHome className="home-icon"/>
+         
       </div>
     </div>
   );

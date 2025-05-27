@@ -7,7 +7,7 @@
 .sideBarBody{
   padding-block: 30px;
   padding-inline: 20px;
-  width: 200px;
+  min-width: 180px;
   color: rgb(33, 33, 33);
   height: 550px;
   overflow-y: scroll;

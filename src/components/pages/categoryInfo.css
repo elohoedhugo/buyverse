@@ -59,3 +59,198 @@ h3{
   font-weight: 700;
   cursor: pointer;
 }
+
+.go{
+  display: none;
+}
+
+@media(max-width: 1536px){
+
+  .body{
+  width: 1336px;
+  padding-bottom: 30px;
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.category-info{
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+h3{
+  font-size: 34px;
+}
+
+.products-list{
+  flex-wrap: wrap;
+  column-gap: 40px;
+  
+}
+
+.product-card{
+  display: flex;
+  gap: 15px;
+  width: 250px;
+}
+
+.product-image{
+  height: 220px;
+} 
+}
+
+
+@media(max-width: 1336px){
+    .body{
+  width: 1136px;
+  padding-bottom: 30px;
+}
+
+.category-info{
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+h3{
+  font-size: 34px;
+}
+
+.products-list{
+  flex-wrap: wrap;
+  column-gap: 70px;
+  
+}
+
+.product-card{
+  display: flex;
+  gap: 15px;
+  width: 200px;
+}
+
+.product-image{
+  height: 220px;
+} 
+}
+
+@media(max-width: 1136px){
+      .body{
+  width: 936px;
+  padding-bottom: 30px;
+}
+
+.category-info{
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+h3{
+  font-size: 34px;
+}
+
+.products-list{
+  flex-wrap: wrap;
+  column-gap: 50px;
+  justify-content: center;
+  
+}
+
+.product-card{
+  display: flex;
+  gap: 15px;
+  width: 150px;
+}
+
+.product-image{
+  height: 260px;
+} 
+}
+
+@media(max-width: 936px){
+
+  .body{
+  width: 736px;
+  padding-bottom: 30px;
+}
+
+.category-info{
+  padding-top: 30px;
+}
+
+h3{
+  font-size: 34px;
+}
+
+.products-list{
+  flex-wrap: wrap;
+  column-gap: 0px;
+  justify-content: center;
+  
+}
+
+.product-card{
+  display: flex;
+  gap: 15px;
+  width: 250px;
+}
+
+.product-image{
+  height: 260px;
+}
+}
+
+@media(max-width: 736px){
+  .body{
+  width: 536px;
+  padding-bottom: 30px;
+}
+
+.category-info{
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+h3{
+  font-size: 15px;
+}
+
+.products-list{
+  flex-wrap: wrap;
+  column-gap: 50px;
+  justify-content: flex-start;
+  width: 350px;
+  
+}
+
+.product-card{
+  display: flex;
+  gap: 10px;
+  width: 100px;
+}
+
+.product-image{
+  height: 120px;
+}
+
+.addbutton{
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.go{
+  display: block;
+  position: absolute;
+  top: 500px;
+  left: 370px;
+  font-weight: 700;
+  color: #8C4C1F;
+  cursor: pointer;
+  font-size: 22px;
+  
+}
+
+.go:hover{
+  color:  rgb(255, 111, 0);
+  
+}
+}

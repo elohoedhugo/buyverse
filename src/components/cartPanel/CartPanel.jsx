@@ -2,6 +2,8 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { removeItem } from '../../store/CartSlice'
 import "../cartPanel/cartPanel.css"
+import { FaLongArrowAltLeft } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -11,9 +13,12 @@ const CartPanel = () => {
   const sendAction = useDispatch()
   const { cart, totalPrice } = useSelector((state) => state.myCart)
 
+  const navigate = useNavigate()
+
 
   return (
     <div className='SCart-div'>
+      <div className='cart-div'>
      <h3 className='Cart-title'>Shopping Cart </h3>
      {cart.length === 0 ? (
      <p className='emptyP'>Your Shopping cart is empty! </p> 
@@ -37,9 +42,15 @@ const CartPanel = () => {
         }
 
         <p className='totalPrice'>Total Price : ${totalPrice}.00 </p>
+        <div className='back'>
+          <p  onClick={()=> navigate("/category")}> Categories </p>
+          <FaLongArrowAltLeft className='back-icon'  onClick={()=> navigate("/category")}/>
+        </div>
+        
       </div>
      )
     }
+    </div>
     </div>
   )
 }

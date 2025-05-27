@@ -1,9 +1,8 @@
 .carousel-container {
   position: relative;
-  width: 1500px;
-  margin: 30px auto;
   overflow: hidden;
   border-radius: 8px;
+  margin-top: 30px;
 }
 
 .carousel-slides {
@@ -20,6 +19,12 @@
   display: flex;
   justify-content: center;
   border: none;
+}
+
+.carouselP{
+  font-size: 42px;
+  color: white;
+  background: rgba(0, 0, 0, 0.277);
 }
 
 .shop{
@@ -42,6 +47,7 @@
   background: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
+  border-radius: 50%;
   font-size: 24px;
   cursor: pointer;
   padding: 10px;
@@ -63,18 +69,67 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 8px;
+  gap: 25px;
 }
 
 .dot {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.433);
   border: none;
   cursor: pointer;
 }
 
 .dot.active {
   background: white;
+}
+
+@media(max-width: 1536px){
+
+  .carousel-container {
+  width: 1336px;
+  
+}
+
+.carousel-item {
+  min-width: 100%;
+  height: 600px;
+}
+
+
+}
+
+@media(max-width: 1336px){
+   .carousel-container {
+  width: 1136px;
+  
+}
+}
+
+@media(max-width: 1136px){
+
+    .carousel-container {
+  width: 936px;
+}
+
+.carouselP{
+  font-size: 37px;
+}
+}
+
+@media(max-width: 936px){
+      .carousel-container {
+  width: 736px;
+}
+
+.carouselP{
+  font-size: 30px;
+}
+}
+
+@media(max-width: 736px){
+      .carousel-container {
+  width: 536px;
+}
 }

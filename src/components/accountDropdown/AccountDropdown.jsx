@@ -16,7 +16,7 @@ const AccountDropdown = ({activeTab, toggleTab}) => {
           <VscAccount className="account-icon" />
         </div>
         <p>Account</p>
-        <div className="icondiv">
+        <div className="icondiv" id='arrow-icon'>
           {activeTab === "account"? (<IoIosArrowUp className="react-icon"/>) : (<IoIosArrowDown className="react-icon"/>)}
          
         </div>

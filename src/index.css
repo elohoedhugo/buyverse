@@ -1,16 +1,52 @@
 
 :root{
-  padding-inline: 80px;
   padding-block: 30px;
   font-size: 17px;
   font-family: system-ui,  Helvetica, Arial, sans-serif;
   font-weight: 500;
   background-color: #E8D59E;
   width: fit-content;
+  margin-inline: auto;
+}
+
+@media(max-width: 2000px){
+  :root{
+    max-width: 1536px;
+  }
 }
 
 
+@media(max-width: 1536px){
+  :root{
+    max-width: 1336px;
+}
+}
 
+@media(max-width: 1336px){
+  :root{
+    max-width: 1136px;
+}
+}
+
+@media(max-width: 1136px){
+  :root{
+    max-width: 936px;
+}
+}
+
+@media(max-width: 936px){
+  :root{
+    max-width: 736px;
+}
+}
+
+@media(max-width: 736px){
+  :root{
+    max-width: 536px;
+}
+
+
+}
 
 
 /*
